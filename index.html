@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Пиксель-Арт</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <img class="kitten-image" src="kitten.png" alt="Kitten" width="600" height="427">
+        <div class="image-shading"><span>Пиксель - Арт</span></div>
+        <canvas class="drawing-area" width="403" height="403"></canvas>
+        <div class="time-display">Время:<br>00:00</div>
+        <button class="rotate-button">Повернуть</button>
+        <button class="result-button">Результат</button>
+        <div class="popup">
+            <div class="popup-main">
+                <span class="popup-close">✖</span>
+                <canvas class="popup-picture" width="100" height="100"></canvas>
+                <div class="popup-info">Пикселей: 0<br>Время: 00:00</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
